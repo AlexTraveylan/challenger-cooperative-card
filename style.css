@@ -1,0 +1,51 @@
+
+/* VAR */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+:root{
+    --linearGradient: hsl(249, 99%, 64%), hsl(278, 94%, 30%); 
+    --red: hsl(0, 100%, 66%);
+    --white: hsl(0, 0%, 100%);
+    --lightViolet: hsl(270, 3%, 87%);
+    --darkViolet: hsl(279, 6%, 55%);
+    --VDarkViolet: hsl(278, 68%, 11%);
+}
+
+
+body{
+    font-size: 18px; 
+    font-family: 'Space Grotesk', sans-serif; 
+}
+.principal-container{
+    max-height: 100vh;
+}
+/* Cartes */
+
+.container-card{
+    background: no-repeat url("./images/bg-main-mobile.png");
+    height: 50vh;    
+}
+#recto{
+    width: 80%;
+    margin-left: 65px;
+    margin-top: 35px;
+  }
+#verso{
+    width: 80%;
+    position: relative;
+    top: -75px;
+    left: 15px;
+}
+
+/* Formulaire */
+
+#btn{
+    color: var(--white);
+    background-color: var(--VDarkViolet);
+    width: 95%;
+    text-align: center;
+    margin-left: 10px;
+    border: none;
+    border-radius: 6px;
+
+
+}
