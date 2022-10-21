@@ -11,30 +11,36 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Interactive card details form</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <!-- Zone de la carte -->
     <section>
       <div class="card-area">
-        <img src="./images/bg-card-back.png" alt="dos de la carte" />
+        <div class="back-card">
+          <img
+            class="img1"
+            src="./images/bg-card-back.png"
+            alt="dos de la carte"
+          />
+          <span class="number-back">000</span>
+        </div>
 
-        <img src="./images/bg-card-front.png" alt="face de la carte" />
+        <div class="front-card">
+          <img class="img3" src="./images/card-logo.svg" alt="logo-carte" />
+          <img
+            class="img2"
+            src="./images/bg-card-front.png"
+            alt="face de la carte"
+          />
 
-        <!-- texte à mettre dans la carte -->
-        0000 0000 0000 0000 Jane Appleseed 00/00
+          <!-- texte à mettre dans la carte -->
+          <div class="number-card" id="number-card">
+            <p>0000 0000 0000 0000</p>
+            <p>Jane Appleseed 00/00</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -84,8 +90,6 @@
       </div>
     </section>
 
-    000 Exp.
-
     <!-- Completed state start
 
     Thank you! We've added your card details Continue
@@ -98,5 +102,6 @@
     </div>
   </body>
 </html> -->
+    <script src="./script.js"></script>
   </body>
 </html>
