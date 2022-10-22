@@ -58,4 +58,8 @@ input{
     display: flex;
     flex-direction: row;
 }
-
+input:focus{
+    outline:  none;
+    box-shadow: none;
+    border: 2px solid var(--VDarkViolet);
+}
