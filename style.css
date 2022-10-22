@@ -87,7 +87,7 @@ input{
     border-radius: 8px;
     border: 2px solid var(--lightViolet);
 }
-#card-name:focus{
+input:focus{
     outline:  none;
     box-shadow: none;
     border: 2px solid var(--VDarkViolet);
