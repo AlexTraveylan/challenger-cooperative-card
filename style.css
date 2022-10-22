@@ -34,10 +34,17 @@ body{
     position: relative;
     top: -75px;
     left: 15px;
+    box-shadow: 14px 32px 26px 3px lightgray;
 }
 
 /* Formulaire */
-
+label{
+    color: var(--VDarkViolet);
+    text-transform: uppercase;
+}
+input{
+    appearance: textfield;
+}
 #btn{
     color: var(--white);
     background-color: var(--VDarkViolet);
@@ -46,6 +53,9 @@ body{
     margin-left: 10px;
     border: none;
     border-radius: 6px;
-
-
 }
+.MMYYCVC{
+    display: flex;
+    flex-direction: row;
+}
+
