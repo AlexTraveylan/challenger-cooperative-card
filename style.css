@@ -46,24 +46,49 @@ input{
     appearance: textfield;
 }
 #btn{
+    font-size: 18px;
     color: var(--white);
     background-color: var(--VDarkViolet);
     width: 95%;
     text-align: center;
-    margin-left: 10px;
     border: none;
     border-radius: 6px;
+    margin-top: 25px;
+    padding: 15px 80px;
 }
 .MMYYCVC{
     display: flex;
     flex-direction: row;
 }
-.card-form{
+
+.main-container{
     padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
 }
-#card-name{
-    width: 90%;    
+
+
+.form-div {
+    padding:10px 0;
+}
+
+#card-number,#card-name{
+    margin-top: 8px;
+    padding: 10px 140px 10px 20px;
+    border-radius: 8px;
+    border: 2px solid var(--lightViolet);
+}
+
+#card-cvc{
+    margin-top: 8px;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: 2px solid var(--lightViolet);
+}
+#card-name:focus{
+    outline:  none;
+    box-shadow: none;
+    border: 2px solid var(--VDarkViolet);
 }
