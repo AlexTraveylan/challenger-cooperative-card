@@ -58,4 +58,12 @@ input{
     display: flex;
     flex-direction: row;
 }
-
+.card-form{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#card-name{
+    width: 90%;    
+}
