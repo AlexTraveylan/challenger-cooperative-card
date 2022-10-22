@@ -78,16 +78,18 @@ input{
     margin-top: 8px;
     padding: 10px 140px 10px 20px;
     border-radius: 8px;
-    border: 2px solid var(--lightViolet);
 }
 
 #card-cvc{
     margin-top: 8px;
     padding: 10px 0;
     border-radius: 8px;
+}
+
+input {
     border: 2px solid var(--lightViolet);
 }
-input:focus{
+input:focus{ 
     outline:  none;
     box-shadow: none;
     border: 2px solid var(--VDarkViolet);
