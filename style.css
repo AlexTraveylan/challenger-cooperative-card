@@ -57,12 +57,23 @@ input{
     padding: 15px 80px;
 }
 .MMYYCVC{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.MMYY {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 8px;
+}
+
+.CVC{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .main-container{
-    padding-left: 5%;
+    padding: 0 5%;
     font-size: 14px;
     display: flex;
     flex-direction: row;
@@ -84,11 +95,17 @@ input{
     margin-top: 8px;
     padding: 10px 0;
     border-radius: 8px;
+    width: 50px;
+}
+
+#form-MM, #form-YY{
+    border-radius: 8px;
 }
 
 input {
     border: 2px solid var(--lightViolet);
 }
+
 input:focus{ 
     outline:  none;
     box-shadow: none;
