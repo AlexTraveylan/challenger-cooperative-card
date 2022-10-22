@@ -59,3 +59,21 @@ input{
     flex-direction: row;
 }
 
+.main-container{
+    padding-left: 5%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.form-div {
+    padding:10px 0;
+}
+
+#card-number,#card-name{
+    margin-top: 8px;
+    padding: 10px 140px 10px 20px;
+    border-radius: 8px;
+    border: 2px solid var(--lightViolet);
+}
